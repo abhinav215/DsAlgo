@@ -1,0 +1,45 @@
+# Input: nums = [1,0,-1,0,-2,2], target = 0
+# Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+
+
+def sum4(lt,target):
+  n = len(lt)
+  ans = []
+  lt.sort()
+  print(lt)
+  for i in range(n-3):
+    for j in range(i+1,n-2):
+      final = target-lt[i]-lt[j]
+      # print(i,j)
+      if i==j:
+        continue
+      else:
+        start =j+1
+        end = n-1
+        while start<end:
+          if lt[i]==-2:
+            print(lt[i],lt[j],lt[start],lt[end])
+          total = lt[start]+lt[end]
+          if total <final:
+            start+=1
+          elif total == final:
+            # print( [lt[i],lt[j],lt[start],lt[end]])
+            ans.append([lt[i],lt[j],lt[start],lt[end]])
+            start+=1
+          else:
+            end-=1
+  res= []
+  [res.append(x) for x in ans if x not in res]
+  return res
+
+
+# nums = [1,0,-1,0,-2,2]
+# target = 0
+# nums = [2,2,2,2]
+# target = 8]
+# nums = [-2,-1,1,2]
+# target = 0
+nums = [-3,-2,-1,0,0,1,2,3]
+target = 0
+print(sum4(nums,target))
+Output= [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]

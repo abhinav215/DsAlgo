@@ -1,0 +1,12 @@
+ischar()
+isupper()
+islower()
+
+any
+
+ASCII code
+ord,
+
+map
+
+lambda

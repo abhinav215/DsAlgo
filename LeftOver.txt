@@ -1,0 +1,43 @@
+
+day1 Q
+day2 Q6
+
+day3 Q6
+day4 Completed
+
+day5 Completed
+day6 Q6
+
+day7 Q2
+day8 Complete
+
+day9 Complete
+day10 Q4
+
+day11 Completed
+day12 Q5
+
+day13 Q3,Q4
+day14 Q3,9,10
+
+day15 Complete
+day16 Q3,4,5,6
+
+day17 Q4,5
+day18 Complete
+
+day19 Complete
+day20 Q1
+
+day21 Complete
+day22 
+
+day23 graph
+day24 graph
+
+day25 dp
+day26 dp
+
+day27 Complete
+
+
