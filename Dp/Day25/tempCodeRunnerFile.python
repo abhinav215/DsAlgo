@@ -1,5 +1,0 @@
-dp[index][prevIndex] = answer(index+1,prevIndex,nums,n,dp)
-  l = 0+dp[index][prevIndex]
-  if prevIndex==-1 or nums[index]>nums[prevIndex]:
-    l=max(l,1+answer(index+1,index,nums,n,dp))
-  return l

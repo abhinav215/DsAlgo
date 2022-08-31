@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=GTJr8OvyEVQ
 
 
 
-
+https://www.quora.com/How-do-the-top-competitive-programmers-represent-tree-or-graph-data-structures-in-their-c++-code
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 string password
