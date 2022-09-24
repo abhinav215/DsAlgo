@@ -29,6 +29,7 @@ def solve(arr,cnt):
 
 
 arr = [5,3,2,4,1]
+arr=[1,3,6,25,10,24,8,30,32,41,45]
 cnt = [0]
 print(solve(arr,cnt))
 print(cnt[0])
