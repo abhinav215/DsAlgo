@@ -32,7 +32,7 @@ def answer(arr):
   n = len(arr)
   seg = [0]*30
   building(0,0,n-1,seg,arr)
-  print(seg)
+  print(seg,"jk")
   for i in range(1):
     l= int(input())
     r = int(input())

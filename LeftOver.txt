@@ -1,6 +1,4 @@
 
-day1 Q
-day2 Q6
 
 day3 Q6
 day4 Completed

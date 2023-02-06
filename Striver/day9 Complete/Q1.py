@@ -1,8 +1,5 @@
 
 
-from audioop import reverse
-
-
 def answer(arr,summ,length,index,ans):
   if index==length:
     print(summ)
